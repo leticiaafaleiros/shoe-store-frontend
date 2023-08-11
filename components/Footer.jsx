@@ -12,19 +12,19 @@ const Footer = () => {
           {/* MENU START */}
           <div className="flex flex-col gap-3 shrink-0">
             <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-              Encontre uma loja
+              Cartões de presente
             </div>
             <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-              torne-se um parceiro
+              Promoções
             </div>
             <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-              inscreva-se para receber e-mail
+              Encontre uma loja Nike
             </div>
             <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-              envie-nos comentários
+              Torne-se um Parceiro
             </div>
             <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-              desconto para estudantes
+              Envie-nos feedback
             </div>
           </div>
           {/* MENU END */}
@@ -57,7 +57,7 @@ const Footer = () => {
             {/* MENU START */}
             <div className="flex flex-col gap-3">
               <div className="font-oswald font-medium uppercase text-sm">
-                Sobre Nike
+                Sobre a Nike
               </div>
               <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                 Notícias
@@ -82,20 +82,20 @@ const Footer = () => {
         <div className="flex gap-4 justify-center md:justify-start">
           <div
             onClick={() => window.open('https://facebook.com', '_blank')}
-            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
+            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white cursor-pointer"
           >
             <FaFacebookF size={20} />
           </div>
           <Link
             href="https://twitter.com"
-            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
+            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white cursor-pointer"
           >
             <FaTwitter size={20} />
           </Link>
-          <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+          <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white cursor-pointer">
             <FaYoutube size={20} />
           </div>
-          <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+          <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white cursor-pointer">
             <FaInstagram size={20} />
           </div>
         </div>
