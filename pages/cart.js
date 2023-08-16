@@ -24,8 +24,6 @@ const Cart = () => {
               <div className="text-lg font-bold">Itens do carrinho</div>
               <CartItem />
               <CartItem />
-              <CartItem />
-              <CartItem />
             </div>
             {/* CART ITEMS END */}
 

@@ -15,12 +15,12 @@ const CartItem = () => {
         <div className="flex flex-col md:flex-row justify-between">
           {/* PRODUCT TITLE */}
           <div className="text-lg md:text-2xl font-semibold text-black/[0.8]">
-            nome do produto
+            Jordan Retro 6 G
           </div>
 
           {/* PRODUCT SUBTITLE */}
           <div className="text-sm md:text-md font-medium text-black/[0.5] block md:hidden">
-            subtitulo
+            Tênis de Golf
           </div>
 
           {/* PRODUCT PRICE */}
@@ -31,19 +31,38 @@ const CartItem = () => {
 
         {/* PRODUCT SUBTITLE */}
         <div className="text-md font-medium text-black/[0.5] hidden md:block">
-          subtitulo
+          Tênis de Golf
         </div>
 
         <div className="flex items-center justify-between mt-4">
           <div className="flex items-center gap-2 md:gap-10 text-black/[0.5] text-sm md:text-md">
             <div className="flex items-center gap-1">
               <div className="font-semibold">Tamanho:</div>
-              <select className="hover:text-black"></select>
+              <select className="hover:text-black">
+                <option value="0"></option>
+                <option value="1">37</option>
+                <option value="2">38</option>
+                <option value="3">39</option>
+                <option value="4">40</option>
+                <option value="5">41</option>
+                <option value="6">42</option>
+                <option value="7">43</option>
+              </select>
             </div>
 
             <div className="flex items-center gap-1">
               <div className="font-semibold">Quantidade:</div>
-              <select className="hover:text-black"></select>
+              <select className="hover:text-black">
+                <option value="0"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
             </div>
           </div>
           <RiDeleteBin6Line className="cursor-pointer text-black/[0.5] hover:text-black text-[16px] md:text-[20px]" />
