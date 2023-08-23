@@ -11,7 +11,7 @@ const Success = () => {
             Obrigado por comprar conosco!
           </div>
           <div className="text-lg font-bold mt-2">
-            Seu pedido foi feito com sucesso.
+            Seu pedido foi feito com sucesso! ✅
           </div>
           <div className="text-base mt-5">
             Para qualquer consulta relacionada ao produto, envie um e-mail para
